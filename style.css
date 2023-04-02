@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.textcolor{
+    color: yellow;
+}
+.game{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.choice{
+    width: 400px;
+    height: 400px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+}
+.format{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.piedra{
+    background-image: url(/reto3/IMG/piedraIzq.png);
+}
+.piedra-cpu{
+    background-image: url(/reto3/IMG/piedraDer.png);
+}
+.papel{
+    background-image: url(/reto3/IMG/papelIzq.png);
+}
+.papel-cpu{
+    background-image: url(/reto3/IMG/papelDer.png);
+}
+.tijeras{
+    background-image: url(/reto3/IMG/tijeraIzq.png);
+}
+.tijeras-cpu{
+    background-image: url(/reto3/IMG/tijeraDer.png);
+}
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
