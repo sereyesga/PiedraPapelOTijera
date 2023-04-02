@@ -29,22 +29,22 @@ body{
     margin: 20px;
 }
 .piedra{
-    background-image: url(/reto3/IMG/piedraIzq.png);
+    background-image: url(./IMG/piedraIzq.png);
 }
 .piedra-cpu{
-    background-image: url(/reto3/IMG/piedraDer.png);
+    background-image: url(./IMG/piedraDer.png);
 }
 .papel{
-    background-image: url(/reto3/IMG/papelIzq.png);
+    background-image: url(./IMG/papelIzq.png);
 }
 .papel-cpu{
-    background-image: url(/reto3/IMG/papelDer.png);
+    background-image: url(./IMG/papelDer.png);
 }
 .tijeras{
-    background-image: url(/reto3/IMG/tijeraIzq.png);
+    background-image: url(./IMG/tijeraIzq.png);
 }
 .tijeras-cpu{
-    background-image: url(/reto3/IMG/tijeraDer.png);
+    background-image: url(./IMG/tijeraDer.png);
 }
 .bg{
     background-size: cover;
